@@ -7,4 +7,22 @@ public class Mueble{
         this.costo = costo;
         this.descripcion = descripcion;
     }
+    public int getPatas(){
+        return patas;
+    }
+    public float getCosto(){
+        return costo;
+    }
+    public String getDescripcion(){
+        return descripcion;
+    }
+    public void setPatas(int p){
+        patas = p;
+    }
+    public void setCosto(float c){
+        costo = c;
+    }
+    public void setDescripcion(String d){
+        descripcion = d;
+    }
 }
