@@ -25,4 +25,7 @@ public class Mueble{
     public void setDescripcion(String d){
         descripcion = d;
     }
+    public String getDetalle(){
+        return patas + "" + costo + "" + descripcion;
+    }
 }
